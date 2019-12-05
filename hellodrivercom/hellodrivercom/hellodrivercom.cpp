@@ -28,7 +28,7 @@ void main()
 		std::cout << "0: Exit the program \n";
 		std::cout << "1: Request handle \n";
 		std::cout << "2: Close handle \n";
-		std::cout << "Input a number coresponding to an option above and press Enter: \n";
+		std::cout << "Input a number coresponding to an option above and press Enter: ";
 		std::cin >> a;
 		switch (a)
 		{
