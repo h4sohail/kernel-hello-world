@@ -62,7 +62,7 @@ NTSTATUS DriverEntry(IN PDRIVER_OBJECT DriverObject, IN PUNICODE_STRING Registry
 		DriverObject->MajorFunction[i] = DispatchPassThru;
 	}
 
-	DbgPrint("Driver loaded succesfully \r\n");
+	DbgPrint("Hello World! Driver loaded succesfully \r\n");
 
 	return status;
 }
